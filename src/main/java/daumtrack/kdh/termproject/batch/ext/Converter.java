@@ -3,7 +3,9 @@ package daumtrack.kdh.termproject.batch.ext;
 /**
  * Coverter.
  *
- * @author mitchell.geek
+ * @author 2011108219_±èµ¿ÈÆ
+ *
+ *
  */
 public interface Converter<T, S> {
 

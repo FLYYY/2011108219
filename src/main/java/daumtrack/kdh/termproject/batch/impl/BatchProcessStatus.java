@@ -5,7 +5,9 @@ import java.util.Date;
 /**
  * BatchProcessStatus.
  *
- * @author mitchell.geek
+ * @author 2011108219_김동훈
+ *
+ * sort가 실행되기 위해 각 상태를 반환해주는 역할을 한다.
  */
 public class BatchProcessStatus {
     private Date startedAt;

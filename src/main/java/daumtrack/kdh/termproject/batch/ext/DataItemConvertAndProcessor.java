@@ -1,13 +1,14 @@
 package daumtrack.kdh.termproject.batch.ext;
 
-import daumtrack.kdh.termproject.batch.DataItemProcessor;
+import daumtrack.kdh.termproject.batch.writer.DataItemProcessor;
 
 import java.io.IOException;
 
 /**
  * CovertingAndProcessor.
  *
- * @author mitchell.geek
+ * @author 2011108219_±èµ¿ÈÆ
+ *
  */
 public class DataItemConvertAndProcessor<T, S> implements DataItemProcessor<T> {
     private final Converter<T, S> converter;

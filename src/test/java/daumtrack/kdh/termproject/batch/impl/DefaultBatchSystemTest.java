@@ -1,6 +1,10 @@
 package daumtrack.kdh.termproject.batch.impl;
 
-import daumtrack.kdh.termproject.batch.*;
+import daumtrack.kdh.termproject.batch.model.BatchResult;
+import daumtrack.kdh.termproject.batch.util.BatchSystem;
+import daumtrack.kdh.termproject.batch.except.NoMoreDataException;
+import daumtrack.kdh.termproject.batch.writer.DataItemProcessor;
+import daumtrack.kdh.termproject.batch.reader.DataItemReader;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +17,7 @@ import static org.mockito.Mockito.*;
 /**
  * DefaultBatchSystemTest.
  *
- * @author mitchell.geek
+ * @author 2011108219_김동훈
  */
 public class DefaultBatchSystemTest {
 
